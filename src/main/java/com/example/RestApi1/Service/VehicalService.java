@@ -17,7 +17,9 @@ public class VehicalService {
 	 @Autowired
 	 private VehicalRepository vehicalRepository;
 	 
+	
 	 public List<t_campaign> getAllCampaign() {
+		 System.out.println("Hello");
 			return vehicalRepository.findAll();
 		}
 	 
