@@ -1,0 +1,65 @@
+2023-02-07 09:09:52 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15h33m44s615ms91µs800ns).
+2023-02-07 17:09:24 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m24s956ms787µs600ns).
+2023-02-07 20:12:31 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h25m6s420ms293µs900ns).
+2023-02-07 20:59:13 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-02-07 20:59:13 [main] INFO  : Starting ControllerIntTest using Java 17.0.4.1 with PID 12764 (started by KhadkeS in D:\Project_Workspace\RestApi1)
+2023-02-07 20:59:13 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-02-07 20:59:14 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-07 20:59:14 [main] INFO  : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2023-02-07 20:59:15 [main] INFO  : Tomcat initialized with port(s): 0 (http)
+2023-02-07 20:59:15 [main] INFO  : Initializing ProtocolHandler ["http-nio-auto-1"]
+2023-02-07 20:59:15 [main] INFO  : Starting service [Tomcat]
+2023-02-07 20:59:15 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-02-07 20:59:15 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-02-07 20:59:15 [main] INFO  : Root WebApplicationContext: initialization completed in 2570 ms
+2023-02-07 20:59:16 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-07 20:59:16 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-07 20:59:16 [main] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-07 20:59:16 [main] INFO  : HikariPool-1 - Starting...
+2023-02-07 20:59:16 [main] INFO  : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1ab1d93d
+2023-02-07 20:59:16 [main] INFO  : HikariPool-1 - Start completed.
+2023-02-07 20:59:17 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-07 20:59:18 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-07 20:59:18 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-07 20:59:18 [main] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-07 20:59:19 [main] INFO  : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-07 20:59:19 [main] INFO  : Starting ProtocolHandler ["http-nio-auto-1"]
+2023-02-07 20:59:19 [main] INFO  : Tomcat started on port(s): 60667 (http) with context path ''
+2023-02-07 20:59:19 [main] INFO  : Started ControllerIntTest in 7.294 seconds (process running for 10.152)
+2023-02-07 20:59:20 [http-nio-auto-1-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-07 20:59:20 [http-nio-auto-1-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-02-07 20:59:20 [http-nio-auto-1-exec-1] INFO  : Completed initialization in 2 ms
+2023-02-07 20:59:20 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-07 20:59:20 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-02-07 20:59:20 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-02-07 21:00:04 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-02-07 21:00:04 [main] INFO  : Starting ControllerIntTest using Java 17.0.4.1 with PID 10824 (started by KhadkeS in D:\Project_Workspace\RestApi1)
+2023-02-07 21:00:04 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-02-07 21:00:05 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-07 21:00:06 [main] INFO  : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2023-02-07 21:00:06 [main] INFO  : Tomcat initialized with port(s): 0 (http)
+2023-02-07 21:00:06 [main] INFO  : Initializing ProtocolHandler ["http-nio-auto-1"]
+2023-02-07 21:00:06 [main] INFO  : Starting service [Tomcat]
+2023-02-07 21:00:06 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-02-07 21:00:07 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-02-07 21:00:07 [main] INFO  : Root WebApplicationContext: initialization completed in 2179 ms
+2023-02-07 21:00:07 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-07 21:00:07 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-07 21:00:07 [main] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-07 21:00:07 [main] INFO  : HikariPool-1 - Starting...
+2023-02-07 21:00:08 [main] INFO  : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2a504ea7
+2023-02-07 21:00:08 [main] INFO  : HikariPool-1 - Start completed.
+2023-02-07 21:00:08 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-07 21:00:09 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-07 21:00:09 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-07 21:00:09 [main] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-07 21:00:10 [main] INFO  : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-07 21:00:10 [main] INFO  : Starting ProtocolHandler ["http-nio-auto-1"]
+2023-02-07 21:00:10 [main] INFO  : Tomcat started on port(s): 60685 (http) with context path ''
+2023-02-07 21:00:10 [main] INFO  : Started ControllerIntTest in 6.464 seconds (process running for 8.259)
+2023-02-07 21:00:11 [http-nio-auto-1-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-07 21:00:11 [http-nio-auto-1-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-02-07 21:00:11 [http-nio-auto-1-exec-1] INFO  : Completed initialization in 2 ms
+2023-02-07 21:00:11 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-07 21:00:11 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-02-07 21:00:11 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.

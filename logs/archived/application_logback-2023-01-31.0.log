@@ -1,0 +1,4 @@
+2023-01-31 16:02:33 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-01-31 16:02:33 [main] INFO  : Starting ControllerMockitoTest using Java 17.0.4.1 with PID 3108 (started by KhadkeS in D:\Project_Workspace\RestApi1)
+2023-01-31 16:02:33 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-01-31 16:02:34 [main] INFO  : Started ControllerMockitoTest in 0.505 seconds (process running for 2.697)
